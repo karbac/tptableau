@@ -21,9 +21,9 @@ public class Amplitude {
         // initialisation des constantes
         final int NL = 5;
         final int NC = 2;
-        // initalisation des variables
+        // initialisation des variables
         int min , max , amp;
-        // création du tableau
+        // création & initialisation du tableau
         int[][] tab = new int[NL][NC];
         
         // lecture du tableau
@@ -49,8 +49,7 @@ public class Amplitude {
         }
         // Calcul de l'amplitude
         amp = max - min;
-        // Affichage
-        
+        // Affichage        
         System.out.printf("%nAmplitude du tableau : %d%n" , amp);
     }
 }
